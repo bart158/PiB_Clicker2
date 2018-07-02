@@ -415,27 +415,3 @@ LogInit: Object subsystem initialized
 [2018.07.02-17.37.52:010][741]SourceControl: fatal: D:/TotallyNotFortnite/UE_4.19/Engine/Content: 'D:/TotallyNotFortnite/UE_4.19/Engine/Content' is outside repository
 [2018.07.02-17.38.00:045][741]LogSlate: Window 'Submit Files' being destroyed
 [2018.07.02-17.38.00:314][741]LogWindows: Windows GetLastError: Operacja ukończona pomyślnie. (0)
-[2018.07.02-17.38.05:619][741]LogThreadingWindows: Error: Runnable thread PoolThread 3 crashed.
-[2018.07.02-17.38.05:619][741]LogWindows: Error: === Critical error: ===
-[2018.07.02-17.38.05:620][741]LogWindows: Error: 
-[2018.07.02-17.38.05:620][741]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 610] 
-[2018.07.02-17.38.05:620][741]LogWindows: Error: Array index out of bounds: 0 from an array of size 0
-[2018.07.02-17.38.05:620][741]LogWindows: Error: 
-[2018.07.02-17.38.05:620][741]LogWindows: Error: 
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000009F13A388 KERNELBASE.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000007CAC7884 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000006BCB6D9B UE4Editor-Core.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000006BBF1949 UE4Editor-Core.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000004693EDD7 UE4Editor-GitSourceControl.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000004693DC75 UE4Editor-GitSourceControl.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000006BB3FA55 UE4Editor-Core.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000006BE99FFC UE4Editor-Core.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x000000006BE8ED63 UE4Editor-Core.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x00000000A24E3034 KERNEL32.DLL!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x00000000A2B51431 ntdll.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: [Callstack] 0x00000000A2B51431 ntdll.dll!UnknownFunction []
-[2018.07.02-17.38.05:620][741]LogWindows: Error: 
-[2018.07.02-17.38.05:620][741]LogWindows: Error: Crash in runnable thread PoolThread 3
-[2018.07.02-17.38.05:666][741]LogExit: Executing StaticShutdownAfterError
-[2018.07.02-17.38.05:666][741]LogWindows: FPlatformMisc::RequestExit(1)
-[2018.07.02-17.38.05:666][741]Log file closed, 07/02/18 19:38:05
