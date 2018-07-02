@@ -551,3 +551,59 @@ LogInit: Object subsystem initialized
 [2018.07.02-17.30.51:900][ 41]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
 [2018.07.02-17.30.53:330][108]SourceControl: Source control is disabled
 [2018.07.02-17.30.53:331][108]LogSlate: Window 'Source Control Login' being destroyed
+[2018.07.02-17.33.55:100][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:100][221]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.07.02-17.33.55:101][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:102][221]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.07.02-17.33.55:102][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:102][221]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.07.02-17.33.55:104][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:104][221]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.07.02-17.33.55:105][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:105][221]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.07.02-17.33.55:106][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:106][221]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.07.02-17.33.55:107][221]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.33.55:107][221]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.07.02-17.34.33:757][254]SourceControl: Source control is disabled
+[2018.07.02-17.34.33:757][254]LogSlate: Window 'Source Control Login' being destroyed
+[2018.07.02-17.36.17:832][903]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.02-17.36.18:425][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.36.18:490][926]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.02-17.36.18:558][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.36.18:559][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-17.36.18:559][926]PIE: New page: PIE session: 2DSideScrollerExampleMap (2 lip 2018, 21:36:18)
+[2018.07.02-17.36.18:560][926]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.02-17.36.18:567][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007186s)
+[2018.07.02-17.36.18:568][926]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.02-17.36.18:569][926]LogPlayLevel: PIE: World Init took: (0.002227s)
+[2018.07.02-17.36.18:569][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009836s)
+[2018.07.02-17.36.18:623][926]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc24f46e80, Size=320
+[2018.07.02-17.36.18:635][926]LogInit: XAudio2 using 'Głośniki (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.02-17.36.18:701][926]LogInit: FAudioDevice initialized.
+[2018.07.02-17.36.18:745][926]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.02-17.36.18:750][926]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.07.02-19.36.18
+[2018.07.02-17.36.18:751][926]LogWorld: Bringing up level for play took: 0.004421
+[2018.07.02-17.36.18:754][926]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,653
+[2018.07.02-17.36.18:755][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.36.37:037][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.36.37:092][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.36.38:689][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.36.51:793][656]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc28001560, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.36.56:178][791]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc28001560, Size=4
+[2018.07.02-17.36.56:178][791]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc28591d00, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_45:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.36.56:186][791]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc28592400, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.38.40:575][227]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.07.02-17.38.40:618][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc28592400, Size=4
+[2018.07.02-17.38.40:618][227]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc276e54e8, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_47:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.38.40:658][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc25008f40, Size=320
+[2018.07.02-17.38.40:658][227]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc25008f40, Size=320, 2DSideScrollerCharacter_C_34 Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_49:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.38.40:679][227]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc2500a480, Size=320, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.38.41:342][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc276e54e8, Size=4
+[2018.07.02-17.38.42:244][240]LogSavePackage: Save=124.72ms
+[2018.07.02-17.38.42:244][240]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacter9AA7DE99471761E328E242B549A505EB.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.07.02-17.38.42:268][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2018.07.02-17.38.46:119][446]LogEditorViewport: Clicking Background
+[2018.07.02-17.38.49:192][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.39.14:148][559]LogRenderer: Reallocating scene render targets to support 800x444 Format 9 NumSamples 1 (Frame:1).
+[2018.07.02-17.39.17:498][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
