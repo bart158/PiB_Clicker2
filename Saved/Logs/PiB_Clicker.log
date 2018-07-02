@@ -522,3 +522,32 @@ LogInit: Object subsystem initialized
 [2018.07.02-17.26.18:512][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
 [2018.07.02-17.26.18:610][835]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.422
 [2018.07.02-17.26.22:380][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.28.33:159][410]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.28.33:822][445]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.28.36:619][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:619][587]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.07.02-17.28.36:620][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:620][587]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.07.02-17.28.36:620][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:620][587]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.07.02-17.28.36:621][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:621][587]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.07.02-17.28.36:622][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:622][587]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.07.02-17.28.36:623][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:623][587]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.07.02-17.28.36:624][587]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.28.36:624][587]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.07.02-17.30.46:573][862]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.07.02-17.30.46:610][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc4a0f9fb0, Size=4
+[2018.07.02-17.30.46:611][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc28002430, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_39:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.30.46:647][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc250091c0, Size=320
+[2018.07.02-17.30.46:647][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc24f46e80, Size=320, 2DSideScrollerCharacter_C_17 Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_41:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.30.46:666][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc25008f40, Size=320, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.30.47:327][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc28002430, Size=4
+[2018.07.02-17.30.48:288][877]LogSavePackage: Save=126.53ms
+[2018.07.02-17.30.48:289][877]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacterBE8677A6487583732E2C36905B3A29E0.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.07.02-17.30.48:299][877]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2018.07.02-17.30.51:900][ 41]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.07.02-17.30.53:330][108]SourceControl: Source control is disabled
+[2018.07.02-17.30.53:331][108]LogSlate: Window 'Source Control Login' being destroyed
