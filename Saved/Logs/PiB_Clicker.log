@@ -423,3 +423,102 @@ LogInit: Object subsystem initialized
 [2018.07.02-17.15.44:056][223]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMapDE3D9A064A1B11D514053091A044CCA5.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
 [2018.07.02-17.15.44:119][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
 [2018.07.02-17.15.44:170][223]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.257
+[2018.07.02-17.17.39:916][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:916][800]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.07.02-17.17.39:917][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:917][800]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.07.02-17.17.39:918][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:918][800]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.07.02-17.17.39:919][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:919][800]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.07.02-17.17.39:919][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:919][800]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.07.02-17.17.39:920][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:920][800]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.07.02-17.17.39:921][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2018.07.02-17.17.39:921][800]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.07.02-17.17.51:904][258]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.07.02-17.17.54:867][368]SourceControl: Source control is disabled
+[2018.07.02-17.17.54:868][368]LogSlate: Window 'Source Control Login' being destroyed
+[2018.07.02-17.18.01:324][553]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2018.07.02-17.18.02:747][553]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc219862c0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.02-17.18.02:762][553]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc219862b8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.02-17.18.05:444][553]LogSlate: Took 0.014008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.02-17.18.18:263][715]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.02-17.18.20:050][716]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PiBClicker
+[2018.07.02-17.18.20:050][716]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.02-17.18.20:050][716]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.07.02-17.18.20:051][716]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.02-17.18.20:051][716]LogTemp: BranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.02-17.18.20:320][717]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Pawe?\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.02-17.18.47:359][341]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.02-17.18.47:373][341]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.02-17.18.49:023][384]LogSlate: Took 0.032010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.02-17.18.59:270][639]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Jump' [Nie można odnaleźć elementu.]
+[2018.07.02-17.19.20:043][242]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::StopJumping' [Nie można odnaleźć elementu.]
+[2018.07.02-17.20.22:487][104]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc4a5a4400, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.20.31:713][367]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.07.02-17.20.31:749][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc4a5a4400, Size=4
+[2018.07.02-17.20.31:749][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc37c953f8, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_25:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.20.31:785][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc760aa840, Size=288
+[2018.07.02-17.20.31:785][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc25009e40, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_27:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.20.31:804][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc250091c0, Size=320, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.20.32:533][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc37c953f8, Size=4
+[2018.07.02-17.20.33:515][379]LogSavePackage: Save=167.18ms
+[2018.07.02-17.20.33:515][379]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacterF6FA83CD4D4DD817FBF7089762BE718A.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.07.02-17.20.33:539][379]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2018.07.02-17.20.35:260][436]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.02-17.20.35:349][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.20.35:349][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-17.20.35:350][436]PIE: New page: PIE session: 2DSideScrollerExampleMap (2 lip 2018, 21:20:35)
+[2018.07.02-17.20.35:350][436]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.02-17.20.35:357][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006712s)
+[2018.07.02-17.20.35:358][436]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.02-17.20.35:359][436]LogPlayLevel: PIE: World Init took: (0.001932s)
+[2018.07.02-17.20.35:359][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009046s)
+[2018.07.02-17.20.35:453][436]LogInit: XAudio2 using 'Głośniki (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.02-17.20.35:526][436]LogInit: FAudioDevice initialized.
+[2018.07.02-17.20.35:567][436]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.02-17.20.35:571][436]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.07.02-19.20.35
+[2018.07.02-17.20.35:572][436]LogWorld: Bringing up level for play took: 0.002937
+[2018.07.02-17.20.35:588][436]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,513
+[2018.07.02-17.20.35:588][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.20.47:877][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.20.47:935][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.02-17.20.49:913][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.21.10:896][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.21.16:032][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.21.19:144][282]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.02-17.21.19:588][283]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PiBClicker
+[2018.07.02-17.21.19:588][283]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.02-17.21.19:589][283]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.07.02-17.21.19:589][283]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.02-17.21.19:589][283]LogTemp: BranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.02-17.21.19:589][283]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Pawe?\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.02-17.21.39:824][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.21.52:905][531]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc4a0f9fb0, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.22.05:450][890]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.02-17.22.05:454][890]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.02-17.22.08:862][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.25.54:470][648]LogSavePackage: Save=310.27ms
+[2018.07.02-17.25.54:470][648]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMap_Auto1B2E679AF4F905D2A4997AB9500F08626.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2018.07.02-17.25.54:482][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2018.07.02-17.25.54:491][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.457
+[2018.07.02-17.25.54:491][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.457
+[2018.07.02-17.25.54:504][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter] ([1] browsable assets)...
+[2018.07.02-17.25.54:504][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter]
+[2018.07.02-17.25.54:649][648]LogSavePackage: Save=120.21ms
+[2018.07.02-17.25.54:649][648]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacter_Auto115D4584340D139A40BF1DCBAF3288E4C.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset'
+[2018.07.02-17.25.54:661][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset
+[2018.07.02-17.25.54:661][648]LogFileHelpers: Auto-saving content packages took 0.167
+[2018.07.02-17.26.15:528][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.26.16:855][835]LogSlate: Window 'Save Content' being destroyed
+[2018.07.02-17.26.16:885][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.26.17:109][835]LogSavePackage: Save=168.96ms
+[2018.07.02-17.26.17:110][835]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacter0BF848324BF13E035AA2D8AFF32A8CB0.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.07.02-17.26.17:157][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2018.07.02-17.26.18:472][835]LogSavePackage: Save=584.98ms
+[2018.07.02-17.26.18:472][835]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMap345817A74A24408558F698A39A94A4CA.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.02-17.26.18:512][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.07.02-17.26.18:610][835]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.422
+[2018.07.02-17.26.22:380][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
