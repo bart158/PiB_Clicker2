@@ -607,3 +607,8 @@ LogInit: Object subsystem initialized
 [2018.07.02-17.38.49:192][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.07.02-17.39.14:148][559]LogRenderer: Reallocating scene render targets to support 800x444 Format 9 NumSamples 1 (Frame:1).
 [2018.07.02-17.39.17:498][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.39.44:134][774]LogSavePackage: Save=396.79ms
+[2018.07.02-17.39.44:134][774]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMap_Auto21749AA5C44801A394E586F9B10E2D709.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2018.07.02-17.39.44:146][774]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
+[2018.07.02-17.39.44:155][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.581
+[2018.07.02-17.39.44:156][774]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.581
