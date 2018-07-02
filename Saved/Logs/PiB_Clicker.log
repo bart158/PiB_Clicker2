@@ -1,4 +1,4 @@
-﻿Log file open, 07/02/18 17:27:09
+﻿Log file open, 07/02/18 18:22:41
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PiB_Clicker
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1674212676) SRandInit(-1674212676).
+LogInit: Display: RandInit(-1127328878) SRandInit(-1127328878).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.344051
+LogStats: Stats thread started at 0.344373
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.484s to configure plugins.
+LogStreaming: Display: Took  1.080s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -216,474 +216,186 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: -EpicPortal 
+LogInit: Command Line:  
 LogInit: Base Directory: D:/TotallyNotFortnite/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.02-15.27.11:511][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.02-15.27.11:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.02-15.27.11:583][  0]LogInit: Computer: DESKTOP-1SB9H3L
-[2018.07.02-15.27.11:583][  0]LogInit: User: Bartek
-[2018.07.02-15.27.11:583][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.02-15.27.11:584][  0]LogInit: High frequency timer resolution =2.742187 MHz
-[2018.07.02-15.27.11:584][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.07.02-15.27.11:585][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.02-15.27.11:585][  0]LogMemory: Process Physical Memory: 274.55 MB used, 274.55 MB peak
-[2018.07.02-15.27.11:585][  0]LogMemory: Process Virtual Memory: 266.16 MB used, 266.16 MB peak
-[2018.07.02-15.27.11:585][  0]LogMemory: Physical Memory: 4958.04 MB used,  3186.85 MB free, 8144.89 MB total
-[2018.07.02-15.27.11:585][  0]LogMemory: Virtual Memory: 4786.04 MB used,  3186.85 MB free, 134217728.00 MB total
-[2018.07.02-15.27.12:450][  0]LogInit: Using OS detected language (pl-PL).
-[2018.07.02-15.27.12:450][  0]LogInit: Using OS detected locale (pl-PL).
-[2018.07.02-15.27.12:454][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
-[2018.07.02-15.27.13:100][  0]LogStreaming: Display: Took  0.649s to EndInitTextLocalization.
-[2018.07.02-15.27.13:100][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.02-15.27.13:160][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.02-15.27.13:160][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.02-15.27.13:419][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.02-15.27.13:505][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2018.07.02-15.27.13:505][  0]LogD3D11RHI:       6084/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.02-15.27.13:508][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.02-15.27.13:508][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.02-15.27.13:508][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.02-15.27.13:516][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.02-15.27.13:516][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.02-15.27.13:516][  0]LogWindows: EnumDisplayDevices:
-[2018.07.02-15.27.13:516][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
-[2018.07.02-15.27.13:517][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.07.02-15.27.13:517][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.07.02-15.27.13:517][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.07.02-15.27.13:517][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.02-15.27.13:517][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2018.07.02-15.27.13:517][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.02-15.27.13:517][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.02-15.27.13:517][  0]LogRHI: Texture pool is 4259 MB (70% of 6084 MB)
-[2018.07.02-15.27.13:558][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.07.02-15.27.13:558][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.02-15.27.13:558][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.02-15.27.13:575][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.07.02-15.27.13:625][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../UnrealEngine Projects/PiB_Clicker/Intermediate/Shaders/WorkingDirectory/16896/).
-[2018.07.02-15.27.13:626][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bartek/AppData/Local/Temp/UnrealShaderWorkingDir/B60F23BD48EB711A1045AB92A2A0F94A/'.
-[2018.07.02-15.27.14:033][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.02-15.27.14:048][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.02-15.27.14:063][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.02-15.27.14:078][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.02-15.27.14:093][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.02-15.27.14:109][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.02-15.27.14:124][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.02-15.27.14:140][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.02-15.27.14:148][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.02-15.27.14:165][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.02-15.27.14:180][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.02-15.27.14:194][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.02-15.27.14:208][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.02-15.27.14:222][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.02-15.27.14:240][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.02-15.27.14:274][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.02-15.27.14:274][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.02-15.27.14:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.02-15.27.14:289][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.02-15.27.14:329][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.02-15.27.14:355][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.02-15.27.14:387][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.02-15.27.14:421][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.02-15.27.14:444][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.02-15.27.14:460][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.02-15.27.14:460][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.02-15.27.14:565][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.02-15.27.14:565][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.02-15.27.14:565][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.02-15.27.15:368][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.02-15.27.15:505][  0]LogDerivedDataCache: Loaded boot cache 0.14s 74MB C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.02-15.27.15:505][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.02-15.27.15:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealEngine Projects/PiB_Clicker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.02-15.27.15:505][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.02-15.27.15:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealEngine Projects/PiB_Clicker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.02-15.27.15:505][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.02-15.27.15:528][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.02-15.27.15:540][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bartek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.02-15.27.15:540][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.02-15.27.15:540][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.02-15.27.15:565][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.02-15.27.15:566][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.02-15.27.15:567][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.02-15.27.15:567][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.02-15.27.15:719][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
-[2018.07.02-15.27.16:164][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.02-15.27.16:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.02-15.27.16:389][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.02-15.27.16:389][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.02-15.27.16:389][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.02-15.27.16:389][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.02-15.27.16:389][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.02-15.27.16:437][  0]LogNetVersion: PiB_Clicker , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2858236556)
-[2018.07.02-15.27.17:318][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.180674 seconds
-[2018.07.02-15.27.17:333][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.02-15.27.17:334][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.07.02-15.27.17:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.02-15.27.20:239][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.02-15.27.20:304][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.02-15.27.20:801][  0]SourceControl: Source control is disabled
-[2018.07.02-15.27.20:801][  0]SourceControl: Source control is disabled
-[2018.07.02-15.27.20:828][  0]SourceControl: Source control is disabled
-[2018.07.02-15.27.20:851][  0]SourceControl: Source control is disabled
-[2018.07.02-15.27.21:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.02-15.27.21:793][  0]LogOcInput: OculusInput pre-init called
-[2018.07.02-15.27.21:955][  0]LogEngine: Initializing Engine...
-[2018.07.02-15.27.21:957][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.02-15.27.21:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.02-15.27.21:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.02-15.27.22:425][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.02-15.27.22:545][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.07.02-15.27.22:819][  0]LogInit: FAudioDevice initialized.
-[2018.07.02-15.27.22:940][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.02-15.27.22:972][  0]LogInit: Texture streaming: Enabled
-[2018.07.02-15.27.23:007][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.02-15.27.23:026][  0]LogInit: Transaction tracking system initialized
-[2018.07.02-15.27.23:055][  0]BlueprintLog: New page: Editor Load
-[2018.07.02-15.27.23:776][  0]LocalizationService: Localization service is disabled
-[2018.07.02-15.27.23:997][  0]LogConsoleResponse: Display: 
-[2018.07.02-15.27.24:358][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.02-15.27.24:358][  0]LogCook: Display: Mobile HDR setting 0
-[2018.07.02-15.27.24:358][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.02-15.27.24:358][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.02-15.27.24:358][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.02-15.27.24:946][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/' took 0.02s
-[2018.07.02-15.27.24:946][  0]SourceControl: Source control is disabled
-[2018.07.02-15.27.25:019][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/TotallyNotFortnite/UE_4.19/FeaturePacks/MobileStarterContent.upack)
-[2018.07.02-15.27.25:138][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.07.02-15.27.25:260][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
-[2018.07.02-15.27.25:278][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
-[2018.07.02-15.27.25:297][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
-[2018.07.02-15.27.25:311][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
-[2018.07.02-15.27.25:329][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
-[2018.07.02-15.27.25:360][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
-[2018.07.02-15.27.25:388][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.07.02-15.27.25:492][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.07.02-15.27.25:518][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.07.02-15.27.25:530][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.07.02-15.27.25:581][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Collapse01.uasset"
-[2018.07.02-15.27.25:668][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Collapse02.uasset"
-[2018.07.02-15.27.25:694][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
-[2018.07.02-15.27.25:718][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Explosion01.uasset"
-[2018.07.02-15.27.25:762][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Explosion02.uasset"
-[2018.07.02-15.27.25:811][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
-[2018.07.02-15.27.25:861][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Fire01.uasset"
-[2018.07.02-15.27.25:880][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
-[2018.07.02-15.27.25:917][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
-[2018.07.02-15.27.25:936][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.07.02-15.27.25:982][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Light01.uasset"
-[2018.07.02-15.27.25:997][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
-[2018.07.02-15.27.26:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Light02.uasset"
-[2018.07.02-15.27.26:072][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
-[2018.07.02-15.27.26:093][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Smoke01.uasset"
-[2018.07.02-15.27.26:115][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
-[2018.07.02-15.27.26:172][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.07.02-15.27.26:350][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
-[2018.07.02-15.27.26:832][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
-[2018.07.02-15.27.26:888][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.07.02-15.27.27:069][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
-[2018.07.02-15.27.27:145][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
-[2018.07.02-15.27.27:180][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Steam01.uasset"
-[2018.07.02-15.27.27:185][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
-[2018.07.02-15.27.27:246][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.07.02-15.27.27:280][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.07.02-15.27.27:317][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.07.02-15.27.27:376][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.07.02-15.27.27:410][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.07.02-15.27.27:469][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.07.02-15.27.27:583][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Maps/Minimal_Default.umap"
-[2018.07.02-15.27.27:623][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.07.02-15.27.27:978][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Maps/StarterMap.umap"
-[2018.07.02-15.27.28:580][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.07.02-15.27.28:637][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
-[2018.07.02-15.27.28:667][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
-[2018.07.02-15.27.28:701][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.07.02-15.27.28:760][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.07.02-15.27.28:785][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.07.02-15.27.28:813][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.07.02-15.27.28:880][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.07.02-15.27.28:909][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.07.02-15.27.28:917][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.07.02-15.27.28:925][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.07.02-15.27.28:955][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.07.02-15.27.29:012][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.07.02-15.27.29:064][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.07.02-15.27.29:085][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.07.02-15.27.29:101][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.07.02-15.27.29:126][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Glass.uasset"
-[2018.07.02-15.27.29:147][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
-[2018.07.02-15.27.29:188][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.07.02-15.27.29:225][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
-[2018.07.02-15.27.29:257][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.07.02-15.27.29:298][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.07.02-15.27.29:306][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.07.02-15.27.29:312][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
-[2018.07.02-15.27.29:383][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
-[2018.07.02-15.27.29:402][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
-[2018.07.02-15.27.29:431][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
-[2018.07.02-15.27.29:437][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.07.02-15.27.29:465][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.07.02-15.27.29:485][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.07.02-15.27.29:546][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
-[2018.07.02-15.27.29:563][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.07.02-15.27.29:602][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.07.02-15.27.29:651][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.07.02-15.27.29:678][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
-[2018.07.02-15.27.29:706][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
-[2018.07.02-15.27.29:719][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
-[2018.07.02-15.27.29:739][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.07.02-15.27.29:751][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.07.02-15.27.29:798][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
-[2018.07.02-15.27.29:829][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
-[2018.07.02-15.27.29:842][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.07.02-15.27.29:866][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.07.02-15.27.29:900][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/P_Explosion.uasset"
-[2018.07.02-15.27.29:951][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/P_Fire.uasset"
-[2018.07.02-15.27.30:000][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/P_Smoke.uasset"
-[2018.07.02-15.27.30:018][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/P_Sparks.uasset"
-[2018.07.02-15.27.30:077][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
-[2018.07.02-15.27.30:103][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.07.02-15.27.30:163][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.07.02-15.27.30:221][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.07.02-15.27.30:235][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.07.02-15.27.30:257][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.07.02-15.27.30:296][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.07.02-15.27.30:311][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.07.02-15.27.30:332][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
-[2018.07.02-15.27.30:389][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/MaterialSphere.uasset"
-[2018.07.02-15.27.30:411][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Bush.uasset"
-[2018.07.02-15.27.30:432][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Chair.uasset"
-[2018.07.02-15.27.30:464][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
-[2018.07.02-15.27.30:513][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Couch.uasset"
-[2018.07.02-15.27.30:561][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Door.uasset"
-[2018.07.02-15.27.30:623][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
-[2018.07.02-15.27.30:650][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
-[2018.07.02-15.27.30:693][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.07.02-15.27.30:716][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.07.02-15.27.30:877][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.07.02-15.27.30:890][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
-[2018.07.02-15.27.30:985][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
-[2018.07.02-15.27.31:065][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Rock.uasset"
-[2018.07.02-15.27.31:083][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Shelf.uasset"
-[2018.07.02-15.27.31:097][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Stairs.uasset"
-[2018.07.02-15.27.31:174][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_Statue.uasset"
-[2018.07.02-15.27.31:256][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_TableRound.uasset"
-[2018.07.02-15.27.31:302][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
-[2018.07.02-15.27.31:374][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
-[2018.07.02-15.27.31:400][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
-[2018.07.02-15.27.31:420][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
-[2018.07.02-15.27.31:443][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
-[2018.07.02-15.27.31:450][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
-[2018.07.02-15.27.31:475][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.07.02-15.27.31:497][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.07.02-15.27.31:529][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
-[2018.07.02-15.27.31:536][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
-[2018.07.02-15.27.31:571][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
-[2018.07.02-15.27.31:589][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.07.02-15.27.31:668][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
-[2018.07.02-15.27.31:725][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
-[2018.07.02-15.27.31:751][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
-[2018.07.02-15.27.31:786][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.07.02-15.27.31:819][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.07.02-15.27.31:826][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
-[2018.07.02-15.27.31:847][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.07.02-15.27.31:859][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.07.02-15.27.31:881][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
-[2018.07.02-15.27.31:904][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.07.02-15.27.31:926][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
-[2018.07.02-15.27.31:998][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
-[2018.07.02-15.27.32:016][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
-[2018.07.02-15.27.32:060][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.07.02-15.27.32:096][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.07.02-15.27.32:144][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.07.02-15.27.32:162][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
-[2018.07.02-15.27.32:193][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.07.02-15.27.32:223][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.07.02-15.27.32:263][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.07.02-15.27.32:356][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.07.02-15.27.32:472][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.07.02-15.27.32:560][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.07.02-15.27.32:746][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.07.02-15.27.32:861][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.07.02-15.27.33:100][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.07.02-15.27.33:238][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.07.02-15.27.33:363][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.07.02-15.27.33:775][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.07.02-15.27.33:804][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.07.02-15.27.33:871][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.07.02-15.27.33:919][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.07.02-15.27.34:041][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.07.02-15.27.34:055][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
-[2018.07.02-15.27.34:072][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
-[2018.07.02-15.27.34:080][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
-[2018.07.02-15.27.34:087][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.07.02-15.27.34:162][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.07.02-15.27.34:182][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
-[2018.07.02-15.27.34:209][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
-[2018.07.02-15.27.34:217][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.07.02-15.27.34:391][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.07.02-15.27.34:543][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.07.02-15.27.34:737][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.07.02-15.27.34:814][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.07.02-15.27.34:867][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.07.02-15.27.34:921][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.07.02-15.27.34:966][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.07.02-15.27.35:049][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.07.02-15.27.35:138][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.07.02-15.27.35:179][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.07.02-15.27.35:252][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.07.02-15.27.35:326][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.07.02-15.27.35:403][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.07.02-15.27.35:462][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.07.02-15.27.35:479][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.07.02-15.27.35:539][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.07.02-15.27.35:557][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.07.02-15.27.35:596][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.07.02-15.27.35:612][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Door_M.uasset"
-[2018.07.02-15.27.35:671][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Door_N.uasset"
-[2018.07.02-15.27.35:972][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.07.02-15.27.36:012][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.07.02-15.27.36:032][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.07.02-15.27.36:040][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.07.02-15.27.36:055][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
-[2018.07.02-15.27.36:065][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
-[2018.07.02-15.27.36:079][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
-[2018.07.02-15.27.36:161][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.07.02-15.27.36:232][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.07.02-15.27.36:286][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.07.02-15.27.36:353][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.07.02-15.27.36:463][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.07.02-15.27.36:542][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.07.02-15.27.36:561][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
-[2018.07.02-15.27.36:595][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
-[2018.07.02-15.27.36:652][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
-[2018.07.02-15.27.36:738][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.07.02-15.27.36:790][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.07.02-15.27.36:853][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.07.02-15.27.36:907][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.07.02-15.27.36:957][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.07.02-15.27.37:164][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.07.02-15.27.37:376][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.07.02-15.27.37:468][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.07.02-15.27.37:695][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.07.02-15.27.37:816][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
-[2018.07.02-15.27.37:991][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
-[2018.07.02-15.27.38:058][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.07.02-15.27.38:144][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.07.02-15.27.38:186][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.07.02-15.27.38:246][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.07.02-15.27.38:298][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.07.02-15.27.38:377][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.07.02-15.27.38:411][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.07.02-15.27.38:449][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.07.02-15.27.39:085][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
-[2018.07.02-15.27.39:096][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
-[2018.07.02-15.27.39:141][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.07.02-15.27.39:179][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.07.02-15.27.39:197][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.07.02-15.27.39:212][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
-[2018.07.02-15.27.39:220][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
-[2018.07.02-15.27.39:255][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
-[2018.07.02-15.27.39:278][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
-[2018.07.02-15.27.39:295][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
-[2018.07.02-15.27.39:312][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.07.02-15.27.39:327][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.07.02-15.27.39:375][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.07.02-15.27.39:392][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.07.02-15.27.39:482][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.07.02-15.27.39:506][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.07.02-15.27.39:531][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Water_M.uasset"
-[2018.07.02-15.27.39:561][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Water_N.uasset"
-[2018.07.02-15.27.39:590][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.07.02-15.27.39:624][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.07.02-15.27.39:698][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.07.02-15.27.39:732][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.07.02-15.27.40:042][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.07.02-15.27.40:073][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.07.02-15.27.40:118][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.07.02-15.27.40:162][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.07.02-15.27.40:180][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.07.02-15.27.40:900][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.07.02-15.27.41:623][  0]LogSavePackage: Save=112.67ms
-[2018.07.02-15.27.41:623][  0]LogSavePackage: Moving '../../../../../UnrealEngine Projects/PiB_Clicker/Saved/Floor_400x4005C11281541B40607894E7494356A89FA.tmp' to '../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
-[2018.07.02-15.27.41:682][  0]LogSavePackage: Display: Finished SavePackage ../../../../../UnrealEngine Projects/PiB_Clicker/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
-[2018.07.02-15.27.41:682][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.07.02-15.27.41:686][  0]Cmd: MAP LOAD FILE="../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.02-15.27.41:687][  0]LightingResults: New page: Lighting Build
-[2018.07.02-15.27.41:694][  0]MapCheck: New page: Map Check
-[2018.07.02-15.27.41:694][  0]LightingResults: New page: Lighting Build
-[2018.07.02-15.27.42:019][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002655ee6d080, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-15.27.42:096][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002655ee6d080, Size=288
-[2018.07.02-15.27.42:096][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002655ee6d080, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-15.27.42:175][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002655ee6df80, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-15.27.42:939][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.07.02-15.27.43:087][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.02-15.27.43:152][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002655ee6d080, Size=288
-[2018.07.02-15.27.43:154][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.02-15.27.43:271][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116,225ms to complete.
-[2018.07.02-15.27.43:271][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.585
-[2018.07.02-15.27.44:627][  0]LogCollectionManager: Loaded 0 collections in 0.002882 seconds
-[2018.07.02-15.27.44:835][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Saved/Collections/' took 0.01s
-[2018.07.02-15.27.44:836][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/Developers/Bartek/Collections/' took 0.01s
-[2018.07.02-15.27.44:836][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/Collections/' took 0.01s
-[2018.07.02-15.27.44:836][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.02-15.27.44:855][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2452 classes and 558 folders.
-[2018.07.02-15.27.44:948][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.07.02-15.27.45:097][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.07.02-15.27.45:182][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.07.02-15.27.45:961][  0]LogSlate: Took 0.000629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.02-15.27.45:967][  0]LogSlate: Took 0.000712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.02-15.27.46:074][  0]LogSlate: Took 0.016290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.02-15.27.46:828][  0]LogRenderer: Reallocating scene render targets to support 960x424 Format 10 NumSamples 1 (Frame:1).
-[2018.07.02-15.27.47:202][  0]LogSlate: Took 0.000632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.02-15.27.47:448][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.07.02-15.27.47:448][  0]LogLoad: (Engine Initialization) Total time: 39.47 seconds
-[2018.07.02-15.27.47:448][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.02-15.27.47:472][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.02-15.27.48:246][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.02-15.27.48:561][  2]LogAssetRegistry: Asset discovery search completed in 32.8647 seconds
-[2018.07.02-15.27.48:564][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.07.02-15.27.48:564][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
-[2018.07.02-15.28.29:870][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-15.28.29:936][442]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.02-15.28.29:970][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-15.28.30:000][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.02-15.28.30:108][442]PIE: New page: PIE session: 2DSideScrollerExampleMap (2 lip 2018, 19:28:30)
-[2018.07.02-15.28.30:109][442]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
-[2018.07.02-15.28.30:197][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088343s)
-[2018.07.02-15.28.30:199][442]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.07.02-15.28.30:213][442]LogPlayLevel: PIE: World Init took: (0.014790s)
-[2018.07.02-15.28.30:213][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.103702s)
-[2018.07.02-15.28.30:276][442]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.07.02-15.28.30:456][442]LogInit: FAudioDevice initialized.
-[2018.07.02-15.28.30:534][442]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.07.02-15.28.30:652][442]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.02-17.28.30
-[2018.07.02-15.28.30:705][442]LogWorld: Bringing up level for play took: 0.069002
-[2018.07.02-15.28.30:931][442]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2018.07.02-15.28.30:958][442]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1,477
-[2018.07.02-15.28.30:959][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-15.29.08:488][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-15.29.08:657][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-15.29.11:384][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-15.29.17:051][124]LogSlate: Took 0.000622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.02-15.29.18:060][124]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
-[2018.07.02-15.29.19:028][124]LogUObjectGlobals: Created PersistentFrame Addr=0x000002651dafd7c8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.02-15.29.19:031][124]LogUObjectGlobals: Created PersistentFrame Addr=0x000002651dafd7c0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.02-15.29.20:792][124]LogSlate: Took 0.016811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.07.02-15.29.21:670][125]LogSlate: Took 0.034336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.07.02-15.29.47:011][ 23]LogSlate: Window '2DSideScrollerCharacter*' being destroyed
-[2018.07.02-15.29.54:741][362]LogSavePackage: Save=125.24ms
-[2018.07.02-15.29.54:741][362]LogSavePackage: Moving '../../../../../UnrealEngine Projects/PiB_Clicker/Saved/2DSideScrollerCharacterD33B2A5648BA416932485A888E7C2C90.tmp' to '../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2018.07.02-15.29.54:746][362]LogSavePackage: Display: Finished SavePackage ../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
-[2018.07.02-15.37.11:848][844]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
-[2018.07.02-15.37.12:534][845]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
-[2018.07.02-15.37.13:737][909]Cmd: EDIT COPY
-[2018.07.02-15.37.14:110][912]Cmd: EDIT PASTE
-[2018.07.02-15.37.27:749][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-15.37.30:104][513]LogSavePackage: Save=508.24ms
-[2018.07.02-15.37.30:104][513]LogSavePackage: Moving '../../../../../UnrealEngine Projects/PiB_Clicker/Saved/2DSideScrollerExampleMapF2724595441BA84909E8D2AFC01A7BF8.tmp' to '../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2018.07.02-15.37.30:108][513]LogSavePackage: Display: Finished SavePackage ../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2018.07.02-15.37.30:206][513]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.802
-[2018.07.02-15.37.44:357][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-16.22.43:068][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.02-16.22.43:068][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.02-16.22.43:101][  0]LogInit: Computer: DESKTOP-1SB9H3L
+[2018.07.02-16.22.43:101][  0]LogInit: User: Bartek
+[2018.07.02-16.22.43:101][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.02-16.22.43:101][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2018.07.02-16.22.43:102][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.07.02-16.22.43:102][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.02-16.22.43:102][  0]LogMemory: Process Physical Memory: 274.32 MB used, 274.32 MB peak
+[2018.07.02-16.22.43:102][  0]LogMemory: Process Virtual Memory: 266.09 MB used, 266.09 MB peak
+[2018.07.02-16.22.43:103][  0]LogMemory: Physical Memory: 4051.18 MB used,  4093.71 MB free, 8144.89 MB total
+[2018.07.02-16.22.43:103][  0]LogMemory: Virtual Memory: 4786.04 MB used,  4093.71 MB free, 134217728.00 MB total
+[2018.07.02-16.22.43:922][  0]LogInit: Using OS detected language (pl-PL).
+[2018.07.02-16.22.43:922][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.07.02-16.22.43:926][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.07.02-16.22.44:520][  0]LogStreaming: Display: Took  0.598s to EndInitTextLocalization.
+[2018.07.02-16.22.44:520][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.02-16.22.44:553][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.02-16.22.44:553][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.02-16.22.44:810][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.02-16.22.44:897][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.07.02-16.22.44:897][  0]LogD3D11RHI:       6084/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.02-16.22.44:901][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.02-16.22.44:901][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.02-16.22.44:901][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.02-16.22.44:909][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.02-16.22.44:909][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.02-16.22.44:909][  0]LogWindows: EnumDisplayDevices:
+[2018.07.02-16.22.44:910][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.07.02-16.22.44:910][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.02-16.22.44:910][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.02-16.22.44:910][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.02-16.22.44:910][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.02-16.22.44:910][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.07.02-16.22.44:911][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.02-16.22.44:911][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.02-16.22.44:911][  0]LogRHI: Texture pool is 4259 MB (70% of 6084 MB)
+[2018.07.02-16.22.44:955][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.07.02-16.22.44:955][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.02-16.22.44:956][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.02-16.22.44:971][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.02-16.22.45:019][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../UnrealEngine Projects/PiB_Clicker/Intermediate/Shaders/WorkingDirectory/11240/).
+[2018.07.02-16.22.45:019][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bartek/AppData/Local/Temp/UnrealShaderWorkingDir/49658DB64023493FEECBFFB26BB317FD/'.
+[2018.07.02-16.22.45:392][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.02-16.22.45:409][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.02-16.22.45:425][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.02-16.22.45:441][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.02-16.22.45:457][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.02-16.22.45:472][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.02-16.22.45:488][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.02-16.22.45:504][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.02-16.22.45:511][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.02-16.22.45:526][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.02-16.22.45:540][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.02-16.22.45:555][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.02-16.22.45:569][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.02-16.22.45:584][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.02-16.22.45:599][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.02-16.22.45:628][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.02-16.22.45:628][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.02-16.22.45:644][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.02-16.22.45:645][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.02-16.22.45:685][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.02-16.22.45:704][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.02-16.22.45:726][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.02-16.22.45:749][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.02-16.22.45:772][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.02-16.22.45:794][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.02-16.22.45:794][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.02-16.22.45:989][  0]LogXGEController: Cleaning working directory: C:/Users/Bartek/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.02-16.22.45:989][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.02-16.22.45:989][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.02-16.22.45:989][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.02-16.22.46:882][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.02-16.22.46:985][  0]LogDerivedDataCache: Loaded boot cache 0.10s 74MB C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.02-16.22.46:985][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.02-16.22.46:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealEngine Projects/PiB_Clicker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.02-16.22.46:985][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.02-16.22.46:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealEngine Projects/PiB_Clicker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.02-16.22.46:985][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.02-16.22.47:010][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.02-16.22.47:023][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bartek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.02-16.22.47:023][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.02-16.22.47:023][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.02-16.22.47:046][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.02-16.22.47:046][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.02-16.22.47:047][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.02-16.22.47:047][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.02-16.22.47:246][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2018.07.02-16.22.47:660][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.02-16.22.47:831][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.02-16.22.47:835][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.02-16.22.47:835][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.02-16.22.47:835][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.02-16.22.47:835][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.02-16.22.47:835][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.02-16.22.47:876][  0]LogNetVersion: PiB_Clicker , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2858236556)
+[2018.07.02-16.22.48:546][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.085282 seconds
+[2018.07.02-16.22.48:554][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.02-16.22.48:554][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.02-16.22.48:554][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.02-16.22.50:902][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.02-16.22.50:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.02-16.22.51:430][  0]SourceControl: Source control is disabled
+[2018.07.02-16.22.51:431][  0]SourceControl: Source control is disabled
+[2018.07.02-16.22.51:466][  0]SourceControl: Source control is disabled
+[2018.07.02-16.22.51:496][  0]SourceControl: Source control is disabled
+[2018.07.02-16.22.52:159][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.02-16.22.52:399][  0]LogOcInput: OculusInput pre-init called
+[2018.07.02-16.22.52:568][  0]LogEngine: Initializing Engine...
+[2018.07.02-16.22.52:570][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.02-16.22.52:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.02-16.22.52:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.02-16.22.52:932][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.02-16.22.53:034][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.02-16.22.53:329][  0]LogInit: FAudioDevice initialized.
+[2018.07.02-16.22.53:452][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.02-16.22.53:476][  0]LogInit: Texture streaming: Enabled
+[2018.07.02-16.22.53:517][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.02-16.22.53:548][  0]LogInit: Transaction tracking system initialized
+[2018.07.02-16.22.53:603][  0]BlueprintLog: New page: Editor Load
+[2018.07.02-16.22.53:771][  0]LocalizationService: Localization service is disabled
+[2018.07.02-16.22.53:942][  0]LogConsoleResponse: Display: 
+[2018.07.02-16.22.54:262][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.02-16.22.54:262][  0]LogCook: Display: Mobile HDR setting 0
+[2018.07.02-16.22.54:262][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.02-16.22.54:262][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.02-16.22.54:262][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.02-16.22.54:586][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/' took 0.01s
+[2018.07.02-16.22.54:738][  0]SourceControl: Source control is disabled
+[2018.07.02-16.22.54:738][  0]Cmd: MAP LOAD FILE="../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.02-16.22.54:739][  0]LightingResults: New page: Lighting Build
+[2018.07.02-16.22.54:744][  0]MapCheck: New page: Map Check
+[2018.07.02-16.22.54:744][  0]LightingResults: New page: Lighting Build
+[2018.07.02-16.22.54:900][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000197611e4900, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-16.22.54:915][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000197611e4900, Size=288
+[2018.07.02-16.22.54:915][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000197611e4900, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-16.22.54:928][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000197611e5800, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-16.22.55:101][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.02-16.22.55:142][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.02-16.22.55:167][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000197611e4900, Size=288
+[2018.07.02-16.22.55:168][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.02-16.22.55:251][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82,472ms to complete.
+[2018.07.02-16.22.55:251][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.512
+[2018.07.02-16.22.55:448][  0]LogCollectionManager: Loaded 0 collections in 0.001397 seconds
+[2018.07.02-16.22.55:497][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Saved/Collections/' took 0.01s
+[2018.07.02-16.22.55:497][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/Developers/Bartek/Collections/' took 0.01s
+[2018.07.02-16.22.55:497][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/Collections/' took 0.01s
+[2018.07.02-16.22.55:497][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.02-16.22.55:516][  0]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 2452 classes and 558 folders.
+[2018.07.02-16.22.55:527][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.02-16.22.55:613][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.02-16.22.55:619][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.07.02-16.22.55:650][  0]LogSlate: Took 0.000506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.02-16.22.55:656][  0]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.02-16.22.55:667][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.02-16.22.55:816][  0]LogRenderer: Reallocating scene render targets to support 960x424 Format 10 NumSamples 1 (Frame:1).
+[2018.07.02-16.22.56:080][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.02-16.22.56:080][  0]LogLoad: (Engine Initialization) Total time: 16.16 seconds
+[2018.07.02-16.22.56:080][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.02-16.22.56:091][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.02-16.22.56:113][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.02-16.22.56:156][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.02-16.22.56:181][  1]LogAssetRegistry: Asset discovery search completed in 8.9596 seconds
+[2018.07.02-16.22.56:185][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.02-16.22.56:185][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2018.07.02-16.36.03:663][241]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_15)
+[2018.07.02-16.36.04:761][298]Cmd: EDIT COPY
+[2018.07.02-16.36.06:023][373]Cmd: EDIT PASTE
+[2018.07.02-16.36.23:378][345]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_16)
+[2018.07.02-16.36.25:555][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-16.36.26:809][502]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.02-16.36.26:813][502]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-16.36.27:086][502]LogSavePackage: Save=142.62ms
+[2018.07.02-16.36.27:086][502]LogSavePackage: Moving '../../../../../UnrealEngine Projects/PiB_Clicker/Saved/2DSideScrollerExampleMap3E0858DA4647A61964C52BA551788E9D.tmp' to '../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.02-16.36.27:090][502]LogSavePackage: Display: Finished SavePackage ../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.07.02-16.36.27:111][502]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.279
