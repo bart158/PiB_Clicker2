@@ -1,4 +1,4 @@
-﻿Log file open, 07/02/18 19:11:15
+﻿Log file open, 07/02/18 19:18:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PiB_Clicker
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1872714530) SRandInit(1872714530).
+LogInit: Display: RandInit(-497550959) SRandInit(-497550959).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.328464
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.267988
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  5.739s to configure plugins.
+LogStreaming: Display: Took  0.774s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am LAPTOP-HU4DFTIO (192.168.100.36:0)
+LogInit: WinSock: I am DESKTOP-1SB9H3L (192.168.100.60:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -217,308 +217,181 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/TotallyNotFortnite/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.02-17.11.22:512][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.02-17.11.22:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.02-17.11.22:581][  0]LogInit: Computer: LAPTOP-HU4DFTIO
-[2018.07.02-17.11.22:581][  0]LogInit: User: Paweł
-[2018.07.02-17.11.22:582][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.07.02-17.11.22:582][  0]LogInit: High frequency timer resolution =2.143474 MHz
-[2018.07.02-17.11.22:582][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2018.07.02-17.11.22:582][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.02-17.11.22:582][  0]LogMemory: Process Physical Memory: 272.61 MB used, 272.61 MB peak
-[2018.07.02-17.11.22:582][  0]LogMemory: Process Virtual Memory: 268.11 MB used, 268.11 MB peak
-[2018.07.02-17.11.22:583][  0]LogMemory: Physical Memory: 3452.75 MB used,  555.50 MB free, 4008.25 MB total
-[2018.07.02-17.11.22:583][  0]LogMemory: Virtual Memory: 4769.74 MB used,  555.50 MB free, 134217728.00 MB total
-[2018.07.02-17.11.22:660][  0]LogInit: Using OS detected language (pl-PL).
-[2018.07.02-17.11.22:660][  0]LogInit: Using OS detected locale (pl-PL).
-[2018.07.02-17.11.22:673][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
-[2018.07.02-17.11.24:065][  0]LogStreaming: Display: Took  1.406s to EndInitTextLocalization.
-[2018.07.02-17.11.24:065][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.02-17.11.24:151][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.02-17.11.24:151][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.02-17.11.25:040][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.02-17.11.25:293][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 920M' (Feature Level 11_0)
-[2018.07.02-17.11.25:293][  0]LogD3D11RHI:       986/0/2004 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.02-17.11.25:312][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2018.07.02-17.11.25:312][  0]LogD3D11RHI:       128/0/2004 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.07.02-17.11.25:321][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.02-17.11.25:321][  0]LogD3D11RHI:       0/0/2004 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.02-17.11.25:321][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.02-17.11.25:373][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.02-17.11.25:373][  0]LogD3D11RHI:     GPU DeviceId: 0x1299 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.02-17.11.25:373][  0]LogWindows: EnumDisplayDevices:
-[2018.07.02-17.11.25:373][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2018.07.02-17.11.25:374][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.07.02-17.11.25:375][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.07.02-17.11.25:375][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.02-17.11.25:375][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 920M
-[2018.07.02-17.11.25:375][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.02-17.11.25:375][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.02-17.11.25:375][  0]LogRHI: Texture pool is 690 MB (70% of 986 MB)
-[2018.07.02-17.11.25:490][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.02-17.11.25:490][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.02-17.11.25:490][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.02-17.11.25:522][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.02-17.11.25:525][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Intermediate/Shaders/WorkingDirectory/10876/).
-[2018.07.02-17.11.25:525][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Paweł/AppData/Local/Temp/UnrealShaderWorkingDir/FA613A614DB919F8E840E3AFFDC4F4C7/'.
-[2018.07.02-17.11.28:661][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.02-17.11.28:711][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.02-17.11.28:760][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.02-17.11.28:811][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.02-17.11.28:867][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.02-17.11.28:921][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.02-17.11.28:971][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.02-17.11.29:023][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.02-17.11.29:048][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.02-17.11.29:092][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.02-17.11.29:136][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.02-17.11.29:180][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.02-17.11.29:223][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.02-17.11.29:268][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.02-17.11.29:313][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.02-17.11.29:401][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.02-17.11.29:401][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.02-17.11.29:447][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.02-17.11.29:454][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.02-17.11.29:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.02-17.11.29:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.02-17.11.29:620][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.02-17.11.29:663][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.02-17.11.29:710][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.02-17.11.29:757][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.02-17.11.29:757][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.02-17.11.30:251][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.02-17.11.30:251][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.02-17.11.30:251][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.02-17.11.33:208][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.02-17.11.33:874][  0]LogDerivedDataCache: Loaded boot cache 0.66s 74MB C:/Users/Paweł/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.02-17.11.33:874][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Paweł/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.02-17.11.33:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.02-17.11.33:875][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.02-17.11.33:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.02-17.11.33:875][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.02-17.11.33:955][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.02-17.11.33:973][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Paweł/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.02-17.11.33:973][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.02-17.11.33:973][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.02-17.11.34:012][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.02-17.11.34:013][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.02-17.11.34:044][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.02-17.11.34:044][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.02-17.11.51:878][  0]LogAssetRegistry: FAssetRegistry took 0.0456 seconds to start up
-[2018.07.02-17.12.00:107][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.02-17.12.04:088][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.02-17.12.04:278][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.02-17.12.04:278][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.02-17.12.04:278][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.02-17.12.04:278][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.02-17.12.04:279][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.02-17.12.04:475][  0]LogNetVersion: PiB_Clicker , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2858236556)
-[2018.07.02-17.12.07:631][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.362031 seconds
-[2018.07.02-17.12.07:651][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.02-17.12.07:651][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.07.02-17.12.07:651][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.02-17.14.05:130][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.02-17.14.05:316][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.02-17.14.08:394][  0]SourceControl: Source control is disabled
-[2018.07.02-17.14.08:395][  0]SourceControl: Source control is disabled
-[2018.07.02-17.14.08:613][  0]SourceControl: Source control is disabled
-[2018.07.02-17.14.08:767][  0]SourceControl: Source control is disabled
-[2018.07.02-17.14.13:246][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.02-17.14.14:110][  0]LogOcInput: OculusInput pre-init called
-[2018.07.02-17.14.14:933][  0]LogEngine: Initializing Engine...
-[2018.07.02-17.14.14:939][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.02-17.14.14:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.02-17.14.14:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.02-17.14.15:819][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.02-17.14.15:858][  0]LogInit: XAudio2 using 'Głośniki (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.02-17.14.15:991][  0]LogInit: FAudioDevice initialized.
-[2018.07.02-17.14.16:317][  0]LogDerivedDataCache: Saved boot cache 0.33s 74MB C:/Users/Paweł/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.02-17.14.16:350][  0]LogInit: Texture streaming: Enabled
-[2018.07.02-17.14.16:797][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.02-17.14.17:261][  0]LogInit: Transaction tracking system initialized
-[2018.07.02-17.14.19:114][  0]BlueprintLog: New page: Editor Load
-[2018.07.02-17.14.20:474][  0]LocalizationService: Localization service is disabled
-[2018.07.02-17.14.22:188][  0]LogConsoleResponse: Display: 
-[2018.07.02-17.14.24:174][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/' took 0.09s
-[2018.07.02-17.14.24:174][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.02-17.14.24:174][  0]LogCook: Display: Mobile HDR setting 0
-[2018.07.02-17.14.24:174][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.02-17.14.24:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.02-17.14.24:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.02-17.14.30:694][  0]SourceControl: Source control is disabled
-[2018.07.02-17.14.30:694][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.02-17.14.30:696][  0]LightingResults: New page: Lighting Build
-[2018.07.02-17.14.30:724][  0]MapCheck: New page: Map Check
-[2018.07.02-17.14.30:724][  0]LightingResults: New page: Lighting Build
-[2018.07.02-17.14.31:451][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc760a9800, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.14.31:736][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc760a9800, Size=288
-[2018.07.02-17.14.31:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc760a9800, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.14.31:992][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc760aa840, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.14.33:834][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.07.02-17.14.34:688][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.02-17.14.34:868][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc760a9800, Size=288
-[2018.07.02-17.14.34:916][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.02-17.14.35:226][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 309,645ms to complete.
-[2018.07.02-17.14.35:226][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 4.532
-[2018.07.02-17.14.40:072][  0]LogCollectionManager: Loaded 0 collections in 0.006172 seconds
-[2018.07.02-17.14.40:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Collections/' took 0.01s
-[2018.07.02-17.14.40:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/Developers/Paweł/Collections/' took 0.01s
-[2018.07.02-17.14.40:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/Collections/' took 0.01s
-[2018.07.02-17.14.40:760][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.02-17.14.40:856][  0]LogContentBrowser: Native class hierarchy populated in 0.0764 seconds. Added 2452 classes and 558 folders.
-[2018.07.02-17.14.41:242][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.07.02-17.14.47:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.07.02-17.14.47:346][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.07.02-17.14.49:384][  0]LogSlate: Took 0.050364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.02-17.14.49:425][  0]LogSlate: Took 0.034456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.02-17.14.49:560][  0]LogSlate: Took 0.016529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.02-17.14.50:495][  0]LogRenderer: Reallocating scene render targets to support 740x372 Format 9 NumSamples 1 (Frame:1).
-[2018.07.02-17.14.52:058][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.07.02-17.14.52:058][  0]LogLoad: (Engine Initialization) Total time: 220.82 seconds
-[2018.07.02-17.14.52:058][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.02-17.14.52:101][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.02-17.14.52:199][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.07.02-17.14.52:376][  0]LogSlate: Took 0.034395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.02-17.14.52:916][  5]LogAssetRegistry: Asset discovery search completed in 181.0617 seconds
-[2018.07.02-17.14.52:922][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.02-17.14.52:922][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000182 seconds (updated 0 objects)
-[2018.07.02-17.15.08:956][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-17.15.09:064][888]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.02-17.15.09:141][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.15.09:188][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.02-17.15.09:557][888]PIE: New page: PIE session: 2DSideScrollerExampleMap (2 lip 2018, 21:15:09)
-[2018.07.02-17.15.09:557][888]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
-[2018.07.02-17.15.09:660][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102838s)
-[2018.07.02-17.15.09:662][888]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.07.02-17.15.09:682][888]LogPlayLevel: PIE: World Init took: (0.021122s)
-[2018.07.02-17.15.09:682][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.124750s)
-[2018.07.02-17.15.09:775][888]LogInit: XAudio2 using 'Głośniki (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.02-17.15.09:838][888]LogInit: FAudioDevice initialized.
-[2018.07.02-17.15.09:952][888]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.07.02-17.15.10:172][888]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.07.02-19.15.10
-[2018.07.02-17.15.10:281][888]LogWorld: Bringing up level for play took: 0.140409
-[2018.07.02-17.15.10:597][888]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2018.07.02-17.15.10:609][888]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,508
-[2018.07.02-17.15.10:610][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.15.20:967][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.15.21:096][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.15.23:715][591]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2018.07.02-17.15.24:615][591]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_15)
-[2018.07.02-17.15.25:248][592]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_15)
-[2018.07.02-17.15.31:368][854]Cmd: EDIT COPY
-[2018.07.02-17.15.31:834][860]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2018.07.02-17.15.33:502][924]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2018.07.02-17.15.33:958][942]Cmd: EDIT PASTE
-[2018.07.02-17.15.39:103][151]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2018.07.02-17.15.40:906][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-17.15.42:687][223]LogSlate: Window 'Save Content' being destroyed
-[2018.07.02-17.15.42:796][223]LogSlate: Took 0.000637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.02-17.15.44:056][223]LogSavePackage: Save=667.93ms
-[2018.07.02-17.15.44:056][223]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMapDE3D9A064A1B11D514053091A044CCA5.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2018.07.02-17.15.44:119][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2018.07.02-17.15.44:170][223]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.257
-[2018.07.02-17.17.39:916][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:916][800]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.07.02-17.17.39:917][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:917][800]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.07.02-17.17.39:918][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:918][800]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.07.02-17.17.39:919][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:919][800]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.07.02-17.17.39:919][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:919][800]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.07.02-17.17.39:920][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:920][800]LogWindows: Warning: URL: C:\Users\Paweł\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2018.07.02-17.17.39:921][800]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
-[2018.07.02-17.17.39:921][800]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2018.07.02-17.17.51:904][258]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
-[2018.07.02-17.17.54:867][368]SourceControl: Source control is disabled
-[2018.07.02-17.17.54:868][368]LogSlate: Window 'Source Control Login' being destroyed
-[2018.07.02-17.18.01:324][553]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
-[2018.07.02-17.18.02:747][553]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc219862c0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.02-17.18.02:762][553]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc219862b8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.02-17.18.05:444][553]LogSlate: Took 0.014008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.07.02-17.18.18:263][715]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.02-17.18.20:050][716]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PiBClicker
-[2018.07.02-17.18.20:050][716]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.02-17.18.20:050][716]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.07.02-17.18.20:051][716]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.02-17.18.20:051][716]LogTemp: BranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.07.02-17.18.20:320][717]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Pawe?\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.02-17.18.47:359][341]LogSlate: Window 'Project Settings' being destroyed
-[2018.07.02-17.18.47:373][341]LogSlate: Window 'Project Settings' being destroyed
-[2018.07.02-17.18.49:023][384]LogSlate: Took 0.032010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.07.02-17.18.59:270][639]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Jump' [Nie można odnaleźć elementu.]
-[2018.07.02-17.19.20:043][242]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::StopJumping' [Nie można odnaleźć elementu.]
-[2018.07.02-17.20.22:487][104]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc4a5a4400, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.20.31:713][367]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2018.07.02-17.20.31:749][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc4a5a4400, Size=4
-[2018.07.02-17.20.31:749][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc37c953f8, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_25:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.20.31:785][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc760aa840, Size=288
-[2018.07.02-17.20.31:785][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc25009e40, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_27:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.20.31:804][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc250091c0, Size=320, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.20.32:533][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bc37c953f8, Size=4
-[2018.07.02-17.20.33:515][379]LogSavePackage: Save=167.18ms
-[2018.07.02-17.20.33:515][379]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacterF6FA83CD4D4DD817FBF7089762BE718A.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2018.07.02-17.20.33:539][379]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
-[2018.07.02-17.20.35:260][436]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.02-17.20.35:349][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.20.35:349][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.02-17.20.35:350][436]PIE: New page: PIE session: 2DSideScrollerExampleMap (2 lip 2018, 21:20:35)
-[2018.07.02-17.20.35:350][436]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
-[2018.07.02-17.20.35:357][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006712s)
-[2018.07.02-17.20.35:358][436]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.07.02-17.20.35:359][436]LogPlayLevel: PIE: World Init took: (0.001932s)
-[2018.07.02-17.20.35:359][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009046s)
-[2018.07.02-17.20.35:453][436]LogInit: XAudio2 using 'Głośniki (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.02-17.20.35:526][436]LogInit: FAudioDevice initialized.
-[2018.07.02-17.20.35:567][436]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.07.02-17.20.35:571][436]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.07.02-19.20.35
-[2018.07.02-17.20.35:572][436]LogWorld: Bringing up level for play took: 0.002937
-[2018.07.02-17.20.35:588][436]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,513
-[2018.07.02-17.20.35:588][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.20.47:877][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.20.47:935][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.07.02-17.20.49:913][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.02-17.21.10:896][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.02-17.21.16:032][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.02-17.21.19:144][282]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.02-17.21.19:588][283]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PiBClicker
-[2018.07.02-17.21.19:588][283]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.02-17.21.19:589][283]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.07.02-17.21.19:589][283]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.02-17.21.19:589][283]LogTemp: BranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-HU4DFTIO/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.07.02-17.21.19:589][283]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Pawe?\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.02-17.21.39:824][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.02-17.21.52:905][531]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bc4a0f9fb0, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.02-17.22.05:450][890]LogSlate: Window 'Project Settings' being destroyed
-[2018.07.02-17.22.05:454][890]LogSlate: Window 'Project Settings' being destroyed
-[2018.07.02-17.22.08:862][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-17.25.54:470][648]LogSavePackage: Save=310.27ms
-[2018.07.02-17.25.54:470][648]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMap_Auto1B2E679AF4F905D2A4997AB9500F08626.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
-[2018.07.02-17.25.54:482][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
-[2018.07.02-17.25.54:491][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.457
-[2018.07.02-17.25.54:491][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.457
-[2018.07.02-17.25.54:504][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter] ([1] browsable assets)...
-[2018.07.02-17.25.54:504][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter]
-[2018.07.02-17.25.54:649][648]LogSavePackage: Save=120.21ms
-[2018.07.02-17.25.54:649][648]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacter_Auto115D4584340D139A40BF1DCBAF3288E4C.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset'
-[2018.07.02-17.25.54:661][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset
-[2018.07.02-17.25.54:661][648]LogFileHelpers: Auto-saving content packages took 0.167
-[2018.07.02-17.26.15:528][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.02-17.26.16:855][835]LogSlate: Window 'Save Content' being destroyed
-[2018.07.02-17.26.16:885][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.02-17.26.17:109][835]LogSavePackage: Save=168.96ms
-[2018.07.02-17.26.17:110][835]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerCharacter0BF848324BF13E035AA2D8AFF32A8CB0.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2018.07.02-17.26.17:157][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
-[2018.07.02-17.26.18:472][835]LogSavePackage: Save=584.98ms
-[2018.07.02-17.26.18:472][835]LogSavePackage: Moving '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Saved/2DSideScrollerExampleMap345817A74A24408558F698A39A94A4CA.tmp' to '../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2018.07.02-17.26.18:512][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Paweł/Documents/Unreal Projects/Clicker/PiB_Clicker3/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2018.07.02-17.26.18:610][835]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.422
-[2018.07.02-17.26.22:380][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-17.18.44:168][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.02-17.18.44:168][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.02-17.18.44:182][  0]LogInit: Computer: DESKTOP-1SB9H3L
+[2018.07.02-17.18.44:182][  0]LogInit: User: Bartek
+[2018.07.02-17.18.44:182][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.02-17.18.44:182][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2018.07.02-17.18.44:182][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.07.02-17.18.44:182][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.02-17.18.44:182][  0]LogMemory: Process Physical Memory: 274.61 MB used, 274.61 MB peak
+[2018.07.02-17.18.44:182][  0]LogMemory: Process Virtual Memory: 266.19 MB used, 266.19 MB peak
+[2018.07.02-17.18.44:182][  0]LogMemory: Physical Memory: 2825.42 MB used,  5319.47 MB free, 8144.89 MB total
+[2018.07.02-17.18.44:182][  0]LogMemory: Virtual Memory: 4786.04 MB used,  5319.47 MB free, 134217728.00 MB total
+[2018.07.02-17.18.44:732][  0]LogInit: Using OS detected language (pl-PL).
+[2018.07.02-17.18.44:732][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.07.02-17.18.44:734][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.07.02-17.18.45:144][  0]LogStreaming: Display: Took  0.412s to EndInitTextLocalization.
+[2018.07.02-17.18.45:144][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.02-17.18.45:179][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.02-17.18.45:179][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.02-17.18.45:365][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.02-17.18.45:415][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.07.02-17.18.45:415][  0]LogD3D11RHI:       6084/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.02-17.18.45:417][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.02-17.18.45:417][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.02-17.18.45:417][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.02-17.18.45:423][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.02-17.18.45:423][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.02-17.18.45:423][  0]LogWindows: EnumDisplayDevices:
+[2018.07.02-17.18.45:423][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.07.02-17.18.45:423][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.02-17.18.45:423][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.02-17.18.45:423][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.02-17.18.45:423][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.02-17.18.45:423][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.07.02-17.18.45:423][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.02-17.18.45:423][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.02-17.18.45:423][  0]LogRHI: Texture pool is 4259 MB (70% of 6084 MB)
+[2018.07.02-17.18.45:455][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.07.02-17.18.45:455][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.02-17.18.45:455][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.02-17.18.45:467][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.02-17.18.45:513][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../UnrealEngine Projects/PiB_Clicker/Intermediate/Shaders/WorkingDirectory/19552/).
+[2018.07.02-17.18.45:513][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bartek/AppData/Local/Temp/UnrealShaderWorkingDir/19A926E248BE0DCC7B3AAB83F0D54FD7/'.
+[2018.07.02-17.18.45:766][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.02-17.18.45:779][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.02-17.18.45:791][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.02-17.18.45:802][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.02-17.18.45:815][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.02-17.18.45:828][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.02-17.18.45:840][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.02-17.18.45:853][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.02-17.18.45:858][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.02-17.18.45:869][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.02-17.18.45:880][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.02-17.18.45:891][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.02-17.18.45:902][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.02-17.18.45:914][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.02-17.18.45:926][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.02-17.18.45:949][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.02-17.18.45:949][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.02-17.18.45:960][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.02-17.18.45:962][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.02-17.18.46:000][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.02-17.18.46:019][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.02-17.18.46:031][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.02-17.18.46:042][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.02-17.18.46:053][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.02-17.18.46:065][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.02-17.18.46:065][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.02-17.18.46:149][  0]LogXGEController: Cleaning working directory: C:/Users/Bartek/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.02-17.18.46:149][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.02-17.18.46:150][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.02-17.18.46:150][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.02-17.18.46:743][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.02-17.18.46:815][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.02-17.18.46:815][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.02-17.18.46:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealEngine Projects/PiB_Clicker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.02-17.18.46:815][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.02-17.18.46:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealEngine Projects/PiB_Clicker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.02-17.18.46:815][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.02-17.18.46:829][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.02-17.18.46:842][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bartek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.02-17.18.46:842][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.02-17.18.46:842][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.02-17.18.46:853][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.02-17.18.46:853][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.02-17.18.46:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.02-17.18.46:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.02-17.18.46:965][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.07.02-17.18.47:256][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.02-17.18.47:395][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.02-17.18.47:397][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.02-17.18.47:397][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.02-17.18.47:397][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.02-17.18.47:397][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.02-17.18.47:397][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.02-17.18.47:428][  0]LogNetVersion: PiB_Clicker , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2858236556)
+[2018.07.02-17.18.47:875][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.033095 seconds
+[2018.07.02-17.18.47:882][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.02-17.18.47:882][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.02-17.18.47:882][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.02-17.18.49:597][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.02-17.18.49:631][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.02-17.18.49:953][  0]SourceControl: Source control is disabled
+[2018.07.02-17.18.49:953][  0]SourceControl: Source control is disabled
+[2018.07.02-17.18.49:969][  0]SourceControl: Source control is disabled
+[2018.07.02-17.18.49:982][  0]SourceControl: Source control is disabled
+[2018.07.02-17.18.50:410][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.02-17.18.50:533][  0]LogOcInput: OculusInput pre-init called
+[2018.07.02-17.18.50:628][  0]LogEngine: Initializing Engine...
+[2018.07.02-17.18.50:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.02-17.18.50:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.02-17.18.50:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.02-17.18.50:914][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.02-17.18.50:920][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.02-17.18.51:122][  0]LogInit: FAudioDevice initialized.
+[2018.07.02-17.18.51:220][  0]LogDerivedDataCache: Saved boot cache 0.10s 74MB C:/Users/Bartek/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.02-17.18.51:236][  0]LogInit: Texture streaming: Enabled
+[2018.07.02-17.18.51:249][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.02-17.18.51:260][  0]LogInit: Transaction tracking system initialized
+[2018.07.02-17.18.51:277][  0]BlueprintLog: New page: Editor Load
+[2018.07.02-17.18.51:329][  0]LocalizationService: Localization service is disabled
+[2018.07.02-17.18.51:413][  0]LogConsoleResponse: Display: 
+[2018.07.02-17.18.51:575][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.02-17.18.51:575][  0]LogCook: Display: Mobile HDR setting 0
+[2018.07.02-17.18.51:575][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.02-17.18.51:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.02-17.18.51:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.02-17.18.51:873][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/' took 0.01s
+[2018.07.02-17.18.51:873][  0]SourceControl: Source control is disabled
+[2018.07.02-17.18.51:873][  0]Cmd: MAP LOAD FILE="../../../../../UnrealEngine Projects/PiB_Clicker/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.02-17.18.51:874][  0]LightingResults: New page: Lighting Build
+[2018.07.02-17.18.51:876][  0]MapCheck: New page: Map Check
+[2018.07.02-17.18.51:876][  0]LightingResults: New page: Lighting Build
+[2018.07.02-17.18.51:945][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015f130fe480, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.18.51:950][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015f130fe480, Size=288
+[2018.07.02-17.18.51:950][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015f130fe480, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.18.51:955][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015f130fd580, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.02-17.18.52:041][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.02-17.18.52:045][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.02-17.18.52:056][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015f130fe480, Size=288
+[2018.07.02-17.18.52:057][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.02-17.18.52:103][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47,273ms to complete.
+[2018.07.02-17.18.52:103][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.230
+[2018.07.02-17.18.52:252][  0]LogCollectionManager: Loaded 0 collections in 0.000886 seconds
+[2018.07.02-17.18.52:292][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Saved/Collections/' took 0.01s
+[2018.07.02-17.18.52:293][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/Developers/Bartek/Collections/' took 0.01s
+[2018.07.02-17.18.52:293][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine Projects/PiB_Clicker/Content/Collections/' took 0.01s
+[2018.07.02-17.18.52:293][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.02-17.18.52:301][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2452 classes and 558 folders.
+[2018.07.02-17.18.52:306][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.02-17.18.52:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.02-17.18.52:350][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.07.02-17.18.52:368][  0]LogSlate: Took 0.000765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.02-17.18.52:373][  0]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.02-17.18.52:380][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.02-17.18.52:474][  0]LogRenderer: Reallocating scene render targets to support 960x424 Format 10 NumSamples 1 (Frame:1).
+[2018.07.02-17.18.52:665][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.07.02-17.18.52:665][  0]LogLoad: (Engine Initialization) Total time: 10.50 seconds
+[2018.07.02-17.18.52:665][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.02-17.18.52:684][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.02-17.18.52:704][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.02-17.18.52:733][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.02-17.18.52:747][  1]LogAssetRegistry: Asset discovery search completed in 5.8047 seconds
+[2018.07.02-17.18.52:749][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.02-17.18.52:749][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.07.02-17.18.59:159][385]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_18)
+[2018.07.02-17.20.10:994][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-17.20.13:387][825]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.02-17.20.15:243][932]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.02-17.20.15:772][963]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.02-17.20.16:188][987]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2018.07.02-17.22.21:002][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
